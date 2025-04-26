@@ -1,8 +1,9 @@
 <script setup>
+const currentDate = new Date(Date.now());
 </script>
 
 <template>
-  Main Page
+  {{ currentDate }}
 </template>
 
 <style scoped></style>
