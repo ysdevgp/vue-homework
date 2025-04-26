@@ -1,10 +1,10 @@
-<script setup>
+ <script setup>
 const currentDate = new Date().toLocaleString();
-</script>
+ </script>
 
 
-<template>
+ <template>
   {{ currentDate }}
-</template>
+ </template>
 
 <style scoped></style>
