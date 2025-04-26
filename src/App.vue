@@ -1,8 +1,5 @@
-<script setup>
-</script>
+<script setup>const currentDate = new Date().toLocaleString();</script>
 
-<template>
-  Main Page
-</template>
+<template>{{ currentDate }}</template>
 
 <style scoped></style>
